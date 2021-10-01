@@ -1,5 +1,5 @@
-
-@media(min-width:1325px){
+/*large screen size breakpoint*/
+@media(min-width:1200px){
     body{
         background-color: black;
         color: white;
