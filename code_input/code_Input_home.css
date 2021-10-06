@@ -6,7 +6,7 @@
         text-decoration: none;
     }
     .navbar{
-        background-color: rgb(28, 29, 29);
+        background-color: yellow;
         padding: 0.005%;
     }
     .unordered{
@@ -22,7 +22,7 @@
         background-color: rgb(58, 58, 58);
         padding: 1% 2%;
         border-radius: 2px;
-        color: blanchedalmond;
+        color: blue;
     }
     .invi{
         display: none;
@@ -31,7 +31,7 @@
         display: none;
     }
     .search{
-        margin-left: 80px;
+        margin-left: 200px;
         border: 3px solid rgb(253, 252, 252);
         border-radius: 50%;
         height: 6px;
@@ -41,7 +41,7 @@
     }
     .search::after{
         content: " ";
-        position: absolute;
+        position: relative;
         /* border: 2px; */
         height: 7px;
         background-color: rgb(255, 254, 254);
@@ -78,7 +78,7 @@
         width: 70px;
         margin-left: -20px;
         height: 70px;
-        border-radius: 50%;
+        border-radius: 60%;
         box-shadow: 5px 5px 7px rgb(34, 34, 34), -5px -5px 7px black;
         margin-bottom: 2%;
     }
@@ -90,7 +90,7 @@
         /* border: 1px solid oldlace; */
     }
     .box3{
-        width: 80%;
+        width: 100%;
         margin-bottom: 6%;
         /* border: 1px solid oldlace; */
     }
@@ -122,7 +122,7 @@
         box-shadow: inset 6px 6px 6px rgb(24, 24, 24),inset -4px -4px 4px rgb(189, 187, 187);
     }
     input[type=submit]{
-        background-color: cornflowerblue;
+        background-color: pink;
         border: none;
         color: cornsilk;
         /* padding: 6px 12px; */
@@ -234,7 +234,7 @@
         margin-right: 1%;
     }
     .invi{
-        display: inline;
+        display: none;
     }
     .sea{
         display: none;
@@ -445,19 +445,19 @@
         width: 6px;
         position: relative;
         top: 4px;
-        left: -14px;
+        left: -34px;
         margin-left: 5%;
     }
     .search::after{
         content: " ";
         position: absolute;
         
-        height: 7px;
+        height: 13px;
         background-color: rgb(247, 245, 245);
-        left: 9px;
-        top: 6px;
+        left: 10px;
+        top: 7px;
         transform: rotate(-45deg);
-        width: 3px;
+        width: 6px;
     }
     .menu{
         display: none;
